@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "proximitymacro",
+[span_87](start_span)[span_87](end_span)  "version": "${version}",
+  "name": "Proximity Sequence Macro",
+  "description": "Executes a defined V-F-Click-Q-V sequence upon 3-block proximity.",
+  "authors": ["Architectural Systems"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/proximitymacro/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.proximitymacro.ProximityMacroClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  }
+}
